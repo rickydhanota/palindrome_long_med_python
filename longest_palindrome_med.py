@@ -3,6 +3,7 @@
 # You can assume that there will only be one longest palindromic substring
 # Sample input; string = "abaxyzzyxf"
 # sample output; "xyzzyx"
+#O(n^2) time | O(n) space
 
 def longestPalindromicSubstring(string):
     currentLongest = [0,1]
